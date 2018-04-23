@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: csan.springframework.controllers.ConstructorInjectedControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in csan.springframework.controllers.ConstructorInjectedControllerTest
+testGreeting(csan.springframework.controllers.ConstructorInjectedControllerTest)  Time elapsed: 0.031 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Hellow bows[]> but was:<Hellow bows[ by constructor]>
+	at csan.springframework.controllers.ConstructorInjectedControllerTest.testGreeting(ConstructorInjectedControllerTest.java:20)
+
