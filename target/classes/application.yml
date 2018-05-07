@@ -1,0 +1,11 @@
+csan:
+  user: hihisfv
+  password: haha
+  dburl: "@medb"
+---
+spring:
+  profiles:
+    active:
+    - es
+csan:
+  user: elninõ
